@@ -247,15 +247,15 @@ article p::after {
     margin: 30px 0;
   }
 
-  .images li:hover {
-    top: 0;
-  }
-
   .images li {
     display: block;
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+  }
+
+  .images li:hover {
+    top: 0;
   }
 
   .images li img {
