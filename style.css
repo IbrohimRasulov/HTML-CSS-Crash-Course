@@ -76,7 +76,7 @@ nav li a {
   color: #4b4b4b;
 }
 
-nav li a.join-tab {
+nav li:first-child a {
   color: #f63232;
 }
 
@@ -120,12 +120,13 @@ article p {
   padding: 50px;
 }
 
-.join input {
-  width: 200px;
+form input {
+  width: 260px;
   padding: 15px;
   border-radius: 35px;
   font-size: 17px;
   margin-top: 20px;
+  border: 3px solid white;
 }
 
 footer {
@@ -134,4 +135,38 @@ footer {
   text-align: center;
   color: white;
   font-size: 14px;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.images li:hover {
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+}
+
+form input:focus {
+  border: 3px solid rgb(79, 117, 224);
+  outline: none;
+  outline-offset:inherit;
+}
+
+form input:valid {
+  border: 3px solid #71d300;
+}
+
+p::selection {
+  background-color: #ffb300;
+  color: white;
+}
+
+article p::first-letter {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+article p::after {
+  content: '...';
 }

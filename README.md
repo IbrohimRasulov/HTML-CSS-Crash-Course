@@ -4,28 +4,21 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot_1.png)
+![screenshot](./screenshot_2.png)
+![screenshot](./screenshot_3.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- No frameworks is used
+- VS Code, GitHub Pages
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link](https://ibrohimrasulov.github.io/HTML-CSS-Crash-Course/)
 
 ### Run tests
 ```
@@ -35,11 +28,11 @@ npx stylelint "**/*.{css,scss}"
 
 ## Authors
 
-👤 **Author1**
+👤 **Ibrohim Rasulov**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [GitHub](https://github.com/IbrohimRasulov)
+- [Twitter](https://twitter.com/IbrohimRasu1ov)
+- [LinkedIn](https://www.linkedin.com/in/ibrohim-rasulov-a88352209/)
 
 ## 🤝 Contributing
 
