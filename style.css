@@ -62,7 +62,6 @@ article h2 {
 
 nav {
   background-color: #f4f4f4;
-  padding: 20px;
   position: sticky;
   top: 105px;
   z-index: 1;
@@ -72,6 +71,7 @@ nav ul {
   white-space: nowrap;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 nav li {
@@ -260,5 +260,57 @@ article p::after {
 
   .images li img {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  header {
+    position: relative;
+  }
+
+  nav {
+    top: 0;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  nav li {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+  }
+
+  form input {
+    width: 160px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-top: 20px;
+    border: 1px solid white;
+  }
+
+  article h2 {
+    font-size: 30px;
+  }
+
+  article p {
+    font-size: 1em;
+  }
+
+  .join h2 {
+    font-size: 1.2em;
+  }
+
+  .join p {
+    font-size: 0.8em;
+  }
+
+  footer {
+    padding: 5px;
+    font-size: 12px;
   }
 }
