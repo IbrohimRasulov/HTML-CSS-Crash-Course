@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Mario Club Page
 
-> One paragraph statement about the project.
+> Here I just tried to refresh my HTML and CSS skills by building a crazy webpage with [Net Ninja](https://www.youtube.com/c/TheNetNinja).
 
-![screenshot](./screenshot_1.png)
-![screenshot](./screenshot_2.png)
-![screenshot](./screenshot_3.png)
+![screenshot](img/screenshot_desktop_1.png)
+![screenshot](img/screenshot_desktop_2.png)
+![screenshot](img/screenshot_desktop_3.png)
 
-Additional description about the project and its features.
+Only plane HTML and CSS are used. The webpage is built full responsive for all kind of devices. To see how it looks just click the live demo link below.
 
 ## Built With
 
