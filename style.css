@@ -28,15 +28,18 @@ header h1 {
   border-radius: 36px;
 }
 
+.banner {
+  background-color: #f4f4f4;
+}
+
 .banner img {
   position: relative;
   width: 100%;
-  left: 0;
 }
 
 .banner .welcome {
   position: absolute;
-  left: 9px;
+  left: 0;
   top: 170px;
   background-color: #feb614;
   color: white;
@@ -49,7 +52,7 @@ article h2 {
 }
 
 .banner h2 {
-  font-size: 70px;
+  font-size: 60px;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -62,6 +65,7 @@ nav {
   padding: 20px;
   position: sticky;
   top: 105px;
+  z-index: 1;
 }
 
 nav ul {
@@ -118,8 +122,14 @@ article p {
   max-width: 100%;
 }
 
+.images li:hover {
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+}
+
 .join {
-  background: #f4f4f4;
+  background: #e4e4e4;
   text-align: center;
   color: #4b4b4b;
   padding: 50px;
@@ -146,12 +156,6 @@ nav li a:hover {
   text-decoration: underline;
 }
 
-.images li:hover {
-  position: relative;
-  top: -10px;
-  cursor: pointer;
-}
-
 form input:focus {
   border: 3px solid rgb(79, 117, 224);
   outline: none;
@@ -159,7 +163,7 @@ form input:focus {
 }
 
 form input:valid {
-  border: 3px solid #71d300;
+  border: 3px solid #00ff40;
 }
 
 p::selection {
@@ -174,4 +178,87 @@ article p::first-letter {
 
 article p::after {
   content: '...';
+}
+
+@media (max-width: 985px) {
+  .banner h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 885px) {
+  .banner h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 600px;
+  }
+
+  .banner {
+    background-color: #feb614;
+  }
+
+  .banner .welcome {
+    position: static;
+    background-color: #feb614;
+    color: white;
+    padding: 20px;
+  }
+
+  .banner h2 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+  .banner h2 br {
+    display: none;
+  }
+
+  .banner h2 span {
+    font-size: 1em;
+  }
+
+  article p {
+    font-size: 1.3em;
+  }
+
+  nav li {
+    font-size: 1.2em;
+  }
+
+  article p::first-letter {
+    font-size: 1.5em;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .join {
+    font-size: 1.3em;
+  }
+
+  .images {
+    margin: 30px 0;
+  }
+
+  .images li:hover {
+    top: 0;
+  }
+
+  .images li {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .images li img {
+    max-width: 100%;
+  }
 }
