@@ -8,7 +8,7 @@
 ![screenshot](img/screenshot_desktop_2.png)
 ![screenshot](img/screenshot_desktop_3.png)
 
-Only plane HTML and CSS are used. The webpage is built full responsive for all kind of devices. To see how it looks just click the live demo link below.
+Only plane HTML and CSS are used. The webpage is built fully responsive for all kind of devices. To see how it looks just click the live demo link below.
 
 ## Built With
 
