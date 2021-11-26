@@ -1,4 +1,4 @@
-body, ul, li, h1, h2, a {
+body,ul,li,h1,h2,a {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +27,6 @@ header h1 {
   position: relative;
   width: 100%;
   left: 0;
-
 }
 
 .banner .welcome {
@@ -37,6 +36,11 @@ header h1 {
   background-color: #feb614;
   color: white;
   padding: 20px;
+}
+
+article h2 {
+  color: #f63232;
+  font-size: 40px;
 }
 
 .banner h2 {
@@ -86,11 +90,6 @@ main {
 
 main li {
   list-style-type: none;
-}
-
-article h2 {
-  color: #f63232;
-  font-size: 40px;
 }
 
 article p {
